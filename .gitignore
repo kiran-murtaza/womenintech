@@ -31,9 +31,13 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (secret env files ignored)
+.env
 .env*.local
 .env.local
 !.env.example
+
+# Generated bill reports
+/output/*.csv
 
 
 # vercel
